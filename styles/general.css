@@ -1,0 +1,15 @@
+body {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px 250px;
+  background: linear-gradient(
+    to bottom,
+    hsl(232, 19%, 15%) 0%,
+    hsl(232, 19%, 15%) 33%,
+    hsl(230, 17%, 14%) 33%,
+    hsl(230, 17%, 14%) 100%
+  );
+  color: hsl(0, 0%, 100%);
+}

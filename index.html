@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/index.css">
+  <link rel="stylesheet" href="styles/lightmode.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Social Media Dashboard with Theme Switcher</title>
+</head>
+
+<body>
+  <section class="top-container">
+    <div>
+      <h1 class="header-title">
+        Social Media Dashboard
+      </h1>
+      <div class="total-followers switch-text-color">
+        Total Followers: 23,004
+      </div>
+    </div>
+    <div class="switch-container switch-text-color">
+      Dark Mode
+      <label class="theme-switcher">
+        <input type="checkbox">
+        <span class="button-slider"></span>
+      </label>
+    </div>   
+  </section>
+  
+  <section class="follower-main-container">
+    <div class="follower-count-container facebook-follower-container lightmode-container">
+      <div class="follow-at switch-text-color">
+        <img class="fb-icon" alt="facebook-icon" src="images/icon-facebook.svg">
+        @nathanf
+      </div>
+      <div class="follower-numbers">
+        1987
+      </div>
+      <div class="followers switch-text-color">
+        Followers
+      </div>
+      <div class="daily-changes increased-value">
+        <img class="arrow-up-icon" alt="arrow-up" src="images/icon-up.svg">
+        12 Today
+      </div>
+    </div>
+  
+    <div class="follower-count-container twitter-follower-container lightmode-container">
+      <div class="follow-at switch-text-color">
+        <img class="twitter-icon" alt="twitter-icon" src="images/icon-twitter.svg">
+        @nathanf
+      </div>
+      <div class="follower-numbers">
+        1044
+      </div>
+      <div class="followers switch-text-color">
+        Followers
+      </div>
+      <div class="daily-changes increased-value">
+        <img class="arrow-up-icon" alt="arrow-up" src="images/icon-up.svg">
+        99 Today
+      </div>
+    </div>
+
+    <div class="follower-count-container instagram-follower-container lightmode-container">
+      <div class="follow-at switch-text-color">
+        <img class="ig-icon" alt="instagram-icon" src="images/icon-instagram.svg">
+        @realnathanf
+      </div>
+      <div class="follower-numbers">
+        11k
+      </div>
+      <div class="followers switch-text-color">
+        Followers
+      </div>
+      <div class="daily-changes increased-value">
+        <img class="arrow-up-icon" alt="arrow-up" src="images/icon-up.svg">
+        1099 Today
+      </div>
+    </div>
+    
+    <div class="follower-count-container youtube-follower-container lightmode-container">
+      <div class="follow-at switch-text-color">
+        <img class="yt-icon" alt="youtube-icon" src="images/icon-youtube.svg">
+        Nathan F.
+      </div>
+      <div class="follower-numbers">
+        8239
+      </div>
+      <div class="followers switch-text-color">
+        Followers
+      </div>
+      <div class="daily-changes decreased-value">
+        <img class="arrow-down-icon" alt="arrow-down" src="images/icon-down.svg">
+        144 Today
+      </div>
+    </div>
+  </section>
+  
+  <h2>
+    Overview - Today
+  </h2>
+  
+  <section class="overview-main-container">
+    <div class="stats-overview-container lightmode-container">
+      <div class="stats-description-row switch-text-color">
+        Page Views
+        <img class="fb-icon" alt="facebook-icon" src="images/icon-facebook.svg">
+      </div>
+      <div class="stats-change-row">
+        <div>
+          87
+        </div>          
+        <div class="stats increased-value">
+          <img class="arrow-up-icon" alt="arrow-up" src="images/icon-up.svg">
+          3%
+        </div>
+      </div>
+    </div>
+    
+    <div class="stats-overview-container lightmode-container">
+      <div class="stats-description-row switch-text-color">
+        Likes
+        <img class="fb-icon" alt="facebook-icon" src="images/icon-facebook.svg">
+      </div>
+      <div class="stats-change-row">
+        52
+        <div class="stats decreased-value">
+          <img class="arrow-down-icon" alt="arrow-down" src="images/icon-down.svg">
+          2%
+        </div>
+      </div>
+    </div>
+    
+    <div class="stats-overview-container lightmode-container">
+      <div class="stats-description-row switch-text-color">
+        Likes
+        <img class="ig-icon" alt="instagram-icon" src="images/icon-instagram.svg">
+      </div>
+      <div class="stats-change-row">
+        5462
+        <div class="stats increased-value">
+          <img class="arrow-up-icon" alt="arrow-up" src="images/icon-up.svg">
+          2257%
+        </div>
+      </div>
+    </div>
+  
+    <div class="stats-overview-container lightmode-container">
+      <div class="stats-description-row switch-text-color">
+        Profile Views
+        <img class="ig-icon" alt="instagram-icon" src="images/icon-instagram.svg">
+      </div>
+      <div class="stats-change-row">
+        52k
+        <div class="stats increased-value">
+          <img class="arrow-up-icon" alt="arrow-up" src="images/icon-up.svg">
+          1375%
+        </div>
+      </div>
+    </div>
+    
+    <div class="stats-overview-container lightmode-container">
+      <div class="stats-description-row switch-text-color">
+        Retweets
+        <img class="twitter-icon" alt="twitter-icon" src="images/icon-twitter.svg">
+      </div>
+      <div class="stats-change-row">
+        117
+        <div class="stats increased-value">
+          <img class="arrow-up-icon" alt="arrow-up" src="images/icon-up.svg">
+          303%
+        </div>
+      </div>
+    </div>
+  
+    <div class="stats-overview-container lightmode-container">
+      <div class="stats-description-row switch-text-color">
+        Likes
+        <img class="twitter-icon" alt="twitter-icon" src="images/icon-twitter.svg">
+      </div>
+      <div class="stats-change-row">
+        507
+        <div class="stats increased-value">
+          <img class="arrow-up-icon" alt="arrow-up" src="images/icon-up.svg">
+          553%
+        </div>
+      </div>
+    </div>
+    
+    <div class="stats-overview-container lightmode-container">
+      <div class="stats-description-row switch-text-color">
+        Likes
+        <img class="yt-icon" alt="youtube-icon" src="images/icon-youtube.svg">
+      </div>
+      <div class="stats-change-row">
+        107
+        <div class="stats decreased-value">
+          <img class="arrow-down-icon" alt="arrow-down" src="images/icon-down.svg">
+          19%
+        </div>
+      </div>
+    </div>
+  
+    <div class="stats-overview-container lightmode-container">
+      <div class="stats-description-row switch-text-color">
+        Total Views
+        <img class="yt-icon" alt="youtube-icon" src="images/icon-youtube.svg">
+      </div>
+      <div class="stats-change-row">
+        1407
+        <div class="stats decreased-value">
+          <img class="arrow-down-icon" alt="arrow-down" src="images/icon-down.svg">
+          12%
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Justin Seow Jing Nyap</a>.
+    </div>
+  </footer>
+  <script src="scripts/switch.js"></script>
+</body>
+</html>

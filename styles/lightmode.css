@@ -1,0 +1,18 @@
+.lightmode-background {
+  background: linear-gradient(
+    to bottom,
+    hsl(225, 100%, 98%) 0%,
+    hsl(225, 100%, 98%) 33%,
+    hsl(0, 0%, 100%) 33%,
+    hsl(0, 0%, 100%) 100%
+  );
+  color: hsl(230, 17%, 14%);
+}
+
+.lightmode-card {
+  background-color: hsl(227, 47%, 96%);
+}
+
+.lightmode-text {
+  color: hsl(228, 12%, 44%);
+}
